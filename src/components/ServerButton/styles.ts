@@ -51,7 +51,7 @@ export const Button = styled.button<Props>`
       display: ${props => props.mentions && props.mentions > 0 ? 'inline' : 'none'}
    }
 
-   &:active, &:hover{
+   &.active, &:hover{
       border-radius: 16px;
       background-color: ${props => props.isHome ? 'var(--discord)' : 'var(--senary)'}
    }

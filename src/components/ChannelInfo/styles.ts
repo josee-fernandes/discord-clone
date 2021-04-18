@@ -7,7 +7,7 @@ export const Container = styled.div`
    align-items: center;
    padding: 0 17px;
    background-color: var(--primary);
-   box-shadow: 0 1px 0 0 rgba(black, .2);
+   box-shadow: 0 1px 0 0 rgba(0, 0, 0, .2);
    z-index: 2;
 `
 

@@ -26,4 +26,4 @@ const ChannelButton: React.FC<Props> = ({ channelName, selected }) => {
    )
 }
 
-export default ChannelButton;
+export default ChannelButton

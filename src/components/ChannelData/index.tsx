@@ -46,4 +46,4 @@ const ChannelData: React.FC = () => {
    )
 }
 
-export default ChannelData;
+export default ChannelData

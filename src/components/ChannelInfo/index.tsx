@@ -13,4 +13,4 @@ const ChannelInfo: React.FC = () => {
    )
 }
 
-export default ChannelInfo;
+export default ChannelInfo

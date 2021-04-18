@@ -11,4 +11,4 @@ const ServerName: React.FC = () => {
    )
 }
 
-export default ServerName;
+export default ServerName

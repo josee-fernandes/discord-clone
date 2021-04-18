@@ -24,4 +24,4 @@ const ServerButton: React.FC<Props> = ({ selected, isHome, hasNotifications, men
    )
 }
 
-export default ServerButton;
+export default ServerButton

@@ -10,6 +10,7 @@ export const Container = styled.div`
    padding: 0 11px 0 16px;
    background-color: var(--secondary);
    box-shadow: 0 1px 0 0 rgba(0, 0, 0, .2);
+   z-index: 2;
 `
 
 export const Title = styled.h1`

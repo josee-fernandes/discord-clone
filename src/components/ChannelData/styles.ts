@@ -60,4 +60,5 @@ export const Input = styled.input`
 
 export const InputIcon = styled(AlternateEmail)`
    width: 20px;
+   color: var(--white);
 `

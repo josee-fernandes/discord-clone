@@ -11,7 +11,7 @@ export const Button = styled.button<Props>`
    height: 48px;
    border-radius: ${props => props.isHome? '16px' : '50%'};
    margin-bottom: 8px;
-   background-color: ${props => props.isHome ? 'var(--rocketseat)' : 'var(--primary)'};
+   background-color: ${props => props.isHome ? 'var(--discord)' : 'var(--primary)'};
    position: relative;
    cursor: pointer;
    transition: border-radius .2s, background-color .2s;
@@ -53,6 +53,6 @@ export const Button = styled.button<Props>`
 
    &:active, &:hover{
       border-radius: 16px;
-      background-color: ${props => props.isHome ? 'var(--rocketseat)' : 'var(--discord)'}
+      background-color: ${props => props.isHome ? 'var(--discord)' : 'var(--senary)'}
    }
 `

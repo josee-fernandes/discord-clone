@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Logo from '../../assets/Logo.svg'
+import Logo from '../../assets/logo-discord.svg'
 
 import { Button } from './styles'
 
@@ -19,7 +19,7 @@ const ServerButton: React.FC<Props> = ({ selected, isHome, hasNotifications, men
          mentions={mentions}
          className={selected ? 'active' : ''}
       >
-         { isHome && <img src={Logo} alt="Rocketseat"/> }
+         { isHome && <img src={Logo} alt="Discord"/> }
       </Button>
    )
 }
